@@ -1,0 +1,20 @@
+.categories {
+  text-align: center;
+  font-size: 30px;
+}
+
+li {
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 70px;
+  display: inline-block;
+  background-color: #eeececee;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(161, 160, 159);
+  color: white;
+}
