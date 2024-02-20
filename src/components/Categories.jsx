@@ -1,9 +1,8 @@
 import { useState } from "react";
-import "./Categories.css";
 
-export default function Categories() {
-  const [activeIndex, setActiveIndex] = useState(0);
+import style from "./Categories.module.css";
 
+export default function Categories({ value, onClickCategory }) {
   const categories = [
     "Все",
     "Марафонки",
@@ -14,14 +13,15 @@ export default function Categories() {
   ];
 
   return (
-    <div className="categories">
+    <div className={style.Categories}>
       <ul>
-        {categories.map((value, index) => (
+        {categories.map((categoryName, index) => (
           <li
-            onClick={() => setActiveIndex(index)}
-            className={activeIndex === index ? "active" : ""}
+            onClick={() => onClickCategory(index)}
+            className={value === index ? style.active : style.unactive}
+            key={index}
           >
-            {value}
+            {categoryName}
           </li>
         ))}
       </ul>

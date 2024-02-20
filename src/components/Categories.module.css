@@ -1,0 +1,27 @@
+.categories {
+  display: block;
+}
+
+.active {
+  display: inline-block;
+  background-color: #eeececee;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+  margin: 15px;
+  padding: 12px;
+  cursor: pointer;
+  background: rgba(254, 95, 30, 0.05);
+  font-weight: bold;
+  color: orange;
+}
+
+.unactive {
+  margin: 10px;
+  padding: 6px;
+  display: inline-block;
+  background-color: #eeececee;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+}

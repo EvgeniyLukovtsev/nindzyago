@@ -1,0 +1,44 @@
+.sort {
+  position: absolute;
+  left: 75%;
+  top: 125px;
+}
+
+.span {
+  margin: 10px;
+  color: orange;
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.sort_popup {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 15px;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+}
+
+.ul {
+  text-align: left;
+  overflow: hidden;
+}
+
+.li {
+  margin: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.li_active {
+  margin: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  background: rgba(254, 95, 30, 0.05);
+  font-weight: bold;
+  color: orange;
+}

@@ -1,0 +1,36 @@
+.root {
+  position: absolute;
+  left: 40%;
+  top: 55px;
+  @media (max-width: 940px) {
+    left: 27%;
+  }
+}
+
+.input {
+  background: url(../../assets/images/search.png) no-repeat;
+  background-size: 20px;
+  background-position: 6px;
+  background-color: white;
+  position: relative;
+  bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  padding-left: 30px;
+  width: 145px;
+  border-radius: 15px;
+}
+
+.clear_logo {
+  position: relative;
+  right: 25px;
+  bottom: 15px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+}
+
+.clear_logo:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

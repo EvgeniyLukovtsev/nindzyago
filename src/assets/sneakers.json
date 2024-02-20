@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/14.png",
+    "name": "bmai pure light",
+    "color": ["orange"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 8000
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/09/11-2.png",
+    "name": "bmai pure",
+    "color": ["red"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 7000
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/15.png",
+    "name": "bmai pace 4.0",
+    "color": ["black"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 8500
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/09/11.png",
+    "name": "bmai carbon mix",
+    "color": ["mint"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 9000
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/4.png",
+    "name": "bmai carbon shock",
+    "color": ["red"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 10000
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://www.runlab.ru/f/product/hoka_one_one_1113530csry_mach_supersonic_w.jpg",
+    "name": "bmai carbon shock",
+    "color": ["red"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [3],
+    "price": 12000
+  }
+]
