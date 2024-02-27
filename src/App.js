@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { decrement, increment } from "./redux/slices/filterSlice.js";
 
 import style from "./App.module.css";
 import Header from "./components/Header";

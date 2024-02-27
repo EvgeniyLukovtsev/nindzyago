@@ -11,6 +11,7 @@
 .text {
   position: absolute;
   left: 100px;
+  top: 0;
   font-family: Bradley Hand;
   padding-left: 10px;
   padding-top: 40px;

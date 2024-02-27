@@ -1,16 +1,23 @@
+import { useSelector, useDispatch } from "react-redux";
 import { useState } from "react";
+import { setSort } from "../redux/slices/filterSlice";
+
 import style from "./Sort.module.css";
 
-export default function Sort({ value, onClickSort }) {
+const list = [
+  { name: "цене(от низ)", sortProperty: "-price" },
+  { name: "цене(от выс)", sortProperty: "price" },
+  { name: "алфавиту", sortProperty: "-name" },
+];
+
+export default function Sort() {
+  const dispatch = useDispatch();
+  const sort = useSelector((state) => state.filter.sort);
+
   const [isVisible, setIsVisible] = useState(false);
-  const list = [
-    { name: "цене(от низ)", sortProperty: "-price" },
-    { name: "цене(от выс)", sortProperty: "price" },
-    { name: "алфавиту", sortProperty: "-name" },
-  ];
 
   function onClickSelected(obj) {
-    onClickSort(obj);
+    dispatch(setSort(obj));
     setIsVisible(false);
   }
 
@@ -19,7 +26,7 @@ export default function Sort({ value, onClickSort }) {
       <>
         <b>Сортировка по:</b>
         <span className={style.span} onClick={() => setIsVisible(!isVisible)}>
-          {value.name}
+          {sort.name}
         </span>
       </>
       {isVisible && (
@@ -29,7 +36,7 @@ export default function Sort({ value, onClickSort }) {
               <li
                 onClick={() => onClickSelected(obj)}
                 className={
-                  value.sortProperty === obj.sortProperty
+                  sort.sortProperty === obj.sortProperty
                     ? style.li_active
                     : style.li
                 }

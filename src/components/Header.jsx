@@ -7,12 +7,12 @@ import Search from "./Search";
 export default function Header() {
   return (
     <div className={style.header}>
-      <Link to="/">
-        <div className={style.conteiner}>
+      <div className={style.conteiner}>
+        <Link to="/">
           <img src={logo} alt="Nindzyago logo" className={style.logo} />
           <p className={style.text}>Ты в форме, пока ты в нашей форме</p>
-        </div>
-      </Link>
+        </Link>
+      </div>
       <Search />
       <Link to="/cart">
         <button className={style.button}>Корзина</button>

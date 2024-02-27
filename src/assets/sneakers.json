@@ -46,11 +46,38 @@
   },
   {
     "id": 5,
-    "imageUrl": "https://www.runlab.ru/f/product/hoka_one_one_1113530csry_mach_supersonic_w.jpg",
-    "name": "bmai carbon shock",
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/33f0deb6-b2ae-47be-a377-c1ee6b69e99a/custom-pegasus-trail-gtx-by-you.png",
+    "name": "Nike Pegasus Trail 4",
     "color": ["red"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [3],
+    "price": 19000
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/040dce2c-690d-4b32-a628-6bfa17a3ba62/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+    "name": "Pegasus FlyEase",
+    "color": ["blue"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
     "price": 12000
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c62b916a-063a-460e-b5dc-0727bf0a22d0/pegasus-turbo-womens-road-running-shoes-v0hK3R.png",
+    "name": "Pegasus Turbo",
+    "color": ["black"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 12000
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd599549-cac2-48b3-956d-20154fe65e65/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+    "name": "Nike Vaporfly 3",
+    "color": ["orange"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 18000
   }
 ]
