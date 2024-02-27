@@ -1,5 +1,6 @@
 import { useState, useEffect, useContext } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import axios from "axios";
 
 import SneakersBlock from "../components/SneakersBlock";
 import Skeleton from "../components/Skeleton";
@@ -17,7 +18,7 @@ export default function Home() {
 
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [currentPage, setCurrentPage] = useState(1);    
+  const [currentPage, setCurrentPage] = useState(1);
   const { searchValue } = useContext(SearchContext);
 
   const onClickCategory = (id) => {
@@ -31,14 +32,15 @@ export default function Home() {
     const order = sortType.includes("-") ? "asc" : "desc";
     const category = categoryId > 0 ? `categories=${categoryId}` : "";
 
-    fetch(
-      `https://65cb6200efec34d9ed8763e5.mockapi.io/items?page=${currentPage}&limit=8&${category}&sortBy=${sortBy}&order=${order}`
-    )
-      .then((res) => res.json())
-      .then((json) => {
-        setItems(json);
+    axios
+      .get(
+        `https://65cb6200efec34d9ed8763e5.mockapi.io/items?page=${currentPage}&limit=8&${category}&sortBy=${sortBy}&order=${order}`
+      )
+      .then((response) => {
+        setItems(response.data);
         setIsLoading(false);
       });
+
     window.scrollTo(0, 0);
   }, [categoryId, sortType, currentPage]);
 
