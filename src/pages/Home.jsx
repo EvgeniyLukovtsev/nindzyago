@@ -94,7 +94,6 @@ export default function Home() {
         <Categories value={categoryId} onClickCategory={onClickCategory} />
         <Sort />
       </>
-      <h3>Все кроссовки</h3>
       <div className={style.container}>
         {isLoading
           ? [...new Array(6)].map((_, i) => <Skeleton key={i} />)
@@ -105,6 +104,7 @@ export default function Home() {
                 price={price}
                 imageUrl={imageUrl}
                 key={id}
+                id={id}
               />
             ))}
       </div>

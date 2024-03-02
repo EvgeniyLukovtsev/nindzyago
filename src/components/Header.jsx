@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 import style from "./Header.module.css";
 import logo from ".././assets/images/logonindzyago.png";
+import cartLogo from "../assets/images/cart.png";
 import Search from "./Search";
 
 export default function Header() {
+  const { items, totalPrice } = useSelector((state) => state.cart);
+
   return (
     <div className={style.header}>
       <div className={style.conteiner}>
@@ -15,7 +19,12 @@ export default function Header() {
       </div>
       <Search />
       <Link to="/cart">
-        <button className={style.button}>Корзина</button>
+        <button className={style.button}>
+          <span>
+            {totalPrice} ₽ | {items.length}
+          </span>
+          <img src={cartLogo} className={style.cartLogo} />
+        </button>
       </Link>
     </div>
   );

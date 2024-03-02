@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  position: relative;
+  margin-top: 80px;
+}
+
+.text_second {
+  position: relative;
+  color: rgb(0, 0, 0, 0.4);
+  margin: 20px;
+}
+
+.img {
+  position: relative;
+  left: 50px;
+  width: 500px;
+}
+
+.button {
+  position: relative;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  border-color: #c2e254;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-top: 20px;
+}

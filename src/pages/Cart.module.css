@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.cartLogo {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.cart {
+  position: relative;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.clear_cart {
+  position: relative;
+  color: rgba(85, 85, 85, 0.477);
+  left: 175px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button_1 {
+  position: relative;
+  color: #888888;
+  font-size: 15px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  border-color: #c2e254;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  right: 90px;
+}
+
+.button_2 {
+  position: relative;
+  background: #c2e254;
+  color: #000000;
+  font-size: 15px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  border-color: #c2e254;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  left: 135px;
+}
+
+.count_price {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.count_item {
+  position: relative;
+  right: 55px;
+  font-size: 17px;
+  font-family: helvetica, serif;
+}
+
+.total_price {
+  position: relative;
+  left: 100px;
+  font-size: 17px;
+  font-family: helvetica, serif;
+}

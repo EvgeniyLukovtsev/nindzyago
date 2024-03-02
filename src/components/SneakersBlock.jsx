@@ -1,9 +1,24 @@
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem, removeItem } from "../redux/slices/cartSlice";
 
 import style from "./SneakersBlock.module.css";
 
-export default function SneakersBlock({ name, sizes, price, imageUrl }) {
+export default function SneakersBlock({ id, name, sizes, price, imageUrl }) {
+  const dispatch = useDispatch();
   const [size, setSize] = useState(0);
+
+  const onClickAdd = () => {
+    const item = {
+      id,
+      name,
+      price,
+      imageUrl,
+      size,
+      sizes,
+    };
+    dispatch(addItem(item));
+  };
 
   return (
     <div className={style.sneakersBlock}>
@@ -22,8 +37,10 @@ export default function SneakersBlock({ name, sizes, price, imageUrl }) {
           ))}
         </ul>
       </div>
-      <div className={style.price}>{price} P</div>
-      <button className={style.button}>В карзину</button>
+      <div className={style.price}>{price} ₽</div>
+      <button onClick={onClickAdd} className={style.button}>
+        В карзину
+      </button>
     </div>
   );
 }
