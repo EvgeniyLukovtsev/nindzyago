@@ -1,10 +1,10 @@
 import { useSelector, useDispatch } from "react-redux";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { setSort } from "../redux/slices/filterSlice";
 
 import style from "./Sort.module.css";
 
-const list = [
+export const list = [
   { name: "цене(от низ)", sortProperty: "-price" },
   { name: "цене(от выс)", sortProperty: "price" },
   { name: "алфавиту", sortProperty: "-name" },
@@ -13,6 +13,7 @@ const list = [
 export default function Sort() {
   const dispatch = useDispatch();
   const sort = useSelector((state) => state.filter.sort);
+  const sortRef = useRef();
 
   const [isVisible, setIsVisible] = useState(false);
 
@@ -21,8 +22,16 @@ export default function Sort() {
     setIsVisible(false);
   }
 
+  // useEffect(() => {
+  //   document.body.addEventListener("click", (event) => {
+  //     if (!event.path.includes(sortRef.current)) {
+  //       setIsVisible(false);
+  //     }
+  //   });
+  // }, []);
+
   return (
-    <div className={style.sort}>
+    <div ref={sortRef} className={style.sort}>
       <>
         <b>Сортировка по:</b>
         <span className={style.span} onClick={() => setIsVisible(!isVisible)}>

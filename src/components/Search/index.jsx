@@ -1,6 +1,7 @@
 import { useContext } from "react";
-import style from "./Search.module.css";
 import { SearchContext } from "../../App";
+
+import style from "./Search.module.css";
 import clear_logo from "../../assets/images/clear.png";
 
 const Search = () => {
