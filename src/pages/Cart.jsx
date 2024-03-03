@@ -6,10 +6,11 @@ import cartLogo from "../assets/images/cart.png";
 import CartItem from "../components/Cartitem";
 import CartEmpty from "../components/CartEmpty";
 import { clearItems, removeItem } from "../redux/slices/cartSlice";
+import { cartSelector } from "../redux/slices/cartSlice";
 
 const Cart = ({ id, name, price, size, imageUrl, sizes }) => {
   const dispatch = useDispatch();
-  const { items, totalPrice } = useSelector((state) => state.cart);
+  const { items, totalPrice } = useSelector(cartSelector);
 
   const onClickClear = () => {
     dispatch(clearItems());

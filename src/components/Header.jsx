@@ -5,9 +5,10 @@ import style from "./Header.module.css";
 import logo from ".././assets/images/logonindzyago.png";
 import cartLogo from "../assets/images/cart.png";
 import Search from "./Search";
+import { cartSelector } from "../redux/slices/cartSlice";
 
 export default function Header() {
-  const { items, totalPrice } = useSelector((state) => state.cart);
+  const { items, totalPrice } = useSelector(cartSelector);
 
   return (
     <div className={style.header}>
