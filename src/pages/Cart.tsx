@@ -5,10 +5,10 @@ import style from "./Cart.module.css";
 import cartLogo from "../assets/images/cart.png";
 import CartItem from "../components/Cartitem";
 import CartEmpty from "../components/CartEmpty";
-import { clearItems, removeItem } from "../redux/slices/cartSlice";
+import { clearItems } from "../redux/slices/cartSlice";
 import { cartSelector } from "../redux/slices/cartSlice";
 
-const Cart = ({ id, name, price, size, imageUrl, sizes }) => {
+const Cart: React.FC = () => {
   const dispatch = useDispatch();
   const { items, totalPrice } = useSelector(cartSelector);
 
@@ -19,6 +19,7 @@ const Cart = ({ id, name, price, size, imageUrl, sizes }) => {
   if (!totalPrice) {
     return <CartEmpty />;
   }
+
   return (
     <div>
       <div className={style.header}>
@@ -29,7 +30,9 @@ const Cart = ({ id, name, price, size, imageUrl, sizes }) => {
         </h3>
       </div>
       <div className={style.container}>
-        <CartItem />
+        {items.map((item: any, i) => (
+          <CartItem key={i} {...item} />
+        ))}
       </div>
       <div className={style.count_price}>
         <p className={style.count_item}>

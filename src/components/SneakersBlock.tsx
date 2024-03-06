@@ -1,15 +1,30 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addItem, removeItem } from "../redux/slices/cartSlice";
+import { useDispatch } from "react-redux";
+import { addItem } from "../redux/slices/cartSlice";
 
 import style from "./SneakersBlock.module.css";
 
-export default function SneakersBlock({ id, name, sizes, price, imageUrl }) {
+interface SneakersBlockProps {
+  id: number;
+  name: string;
+  price: number;
+  sizes: number[];
+  imageUrl: string;
+}
+
+const SneakersBlock: React.FC<SneakersBlockProps> = ({
+  id,
+  name,
+  sizes,
+  price,
+  imageUrl,
+}) => {
   const dispatch = useDispatch();
-  const [size, setSize] = useState(0);
+  const [size, setSize] = useState<number>(0);
 
   const onClickAdd = () => {
     const item = {
+      number: Math.random(),
       id,
       name,
       price,
@@ -39,8 +54,10 @@ export default function SneakersBlock({ id, name, sizes, price, imageUrl }) {
       </div>
       <div className={style.price}>{price} ₽</div>
       <button onClick={onClickAdd} className={style.button}>
-        В карзину
+        В корзину
       </button>
     </div>
   );
-}
+};
+
+export default SneakersBlock;

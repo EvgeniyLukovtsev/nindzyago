@@ -3,32 +3,31 @@ import { useEffect, useRef, useState } from "react";
 import { setSort } from "../redux/slices/filterSlice";
 
 import style from "./Sort.module.css";
+import { RootState } from "../redux/store";
 
-export const list = [
+interface IList {
+  name: string;
+  sortProperty: string;
+  sortType?: string;
+}
+
+export const list: IList[] = [
   { name: "цене(от низ)", sortProperty: "-price" },
   { name: "цене(от выс)", sortProperty: "price" },
   { name: "алфавиту", sortProperty: "-name" },
 ];
 
-export default function Sort() {
+const Sort: React.FC = () => {
   const dispatch = useDispatch();
-  const sort = useSelector((state) => state.filter.sort);
-  const sortRef = useRef();
+  const sort = useSelector((state: RootState) => state.filter.sort);
+  const sortRef = useRef<HTMLDivElement>(null);
 
   const [isVisible, setIsVisible] = useState(false);
 
-  function onClickSelected(obj) {
+  function onClickSelected(obj: IList) {
     dispatch(setSort(obj));
     setIsVisible(false);
   }
-
-  // useEffect(() => {
-  //   document.body.addEventListener("click", (event) => {
-  //     if (!event.path.includes(sortRef.current)) {
-  //       setIsVisible(false);
-  //     }
-  //   });
-  // }, []);
 
   return (
     <div ref={sortRef} className={style.sort}>
@@ -59,4 +58,6 @@ export default function Sort() {
       )}
     </div>
   );
-}
+};
+
+export default Sort;
