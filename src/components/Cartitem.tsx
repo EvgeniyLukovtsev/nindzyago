@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import React from "react";
 
 import style from "./Cartitem.module.css";
-import { removeItem } from "../redux/slices/cartSlice";
+import { removeItem } from "../redux/slices/cart/slice";
 import { RootState } from "../redux/store";
 
 interface CartItemProps {
@@ -29,7 +29,6 @@ const CartItem: React.FC<CartItemProps> = ({
 
   const onClicRemove = () => {
     dispatch(removeItem(number));
-    console.log(number);
   };
 
   return (

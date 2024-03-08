@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useCallback } from "react";
 import { useSelector } from "react-redux";
 import qs from "qs";
 import { useNavigate } from "react-router-dom";
@@ -13,8 +13,8 @@ import {
   setCategoryId,
   setCurrentPage,
   setFilters,
-} from "../redux/slices/filterSlice";
-import { fetchSneakers } from "../redux/slices/sneakersSlice";
+} from "../redux/slices/filter/slice";
+import { fetchSneakers } from "../redux/slices/sneakers/slice";
 import { list } from "../components/Sort";
 import { RootState, useAppDispatch } from "../redux/store";
 
@@ -34,9 +34,9 @@ const Home: React.FC = () => {
     (state: RootState) => state.filter
   );
 
-  const onClickCategory = (id: number) => {
+  const onChangeCategory = useCallback((id: number) => {
     dispatch(setCategoryId(id));
-  };
+  }, []);
 
   const onChangePage = (num: number) => {
     dispatch(setCurrentPage(num));
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <>
-        <Categories value={categoryId} onClickCategory={onClickCategory} />
+        <Categories value={categoryId} onClickCategory={onChangeCategory} />
         <Sort />
       </>
       {status === "error" ? (

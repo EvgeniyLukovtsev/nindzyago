@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addItem } from "../redux/slices/cartSlice";
+import { addItem } from "../redux/slices/cart/slice";
 
 import style from "./SneakersBlock.module.css";
 

@@ -1,13 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-
-interface FetchType {
-  sortBy: string;
-  order: string;
-  category: string;
-  currentPage: number;
-  search: string;
-}
+import { FetchType, SneakersItem, SneakersSliceState, Status } from "./types";
 
 export const fetchSneakers = createAsyncThunk(
   "sneaker/fetchSneakersStatus",
@@ -19,25 +12,6 @@ export const fetchSneakers = createAsyncThunk(
     return data as SneakersItem[];
   }
 );
-
-interface SneakersItem {
-  id: number;
-  name: string;
-  price: number;
-  sizes: number[];
-  imageUrl: string;
-}
-
-enum Status {
-  LOADING = "loading",
-  SUCCESS = "success",
-  ERROR = "error",
-}
-
-interface SneakersSliceState {
-  items: SneakersItem[];
-  status: Status;
-}
 
 const initialState: SneakersSliceState = {
   items: [],

@@ -16,22 +16,24 @@ const categories = [
   "Карбоновые",
 ];
 
-const Categories: React.FC<CategoriesProps> = ({ value, onClickCategory }) => {
-  return (
-    <div className={style.Categories}>
-      <ul>
-        {categories.map((categoryName, i) => (
-          <li
-            onClick={() => onClickCategory(i)}
-            className={value === i ? style.active : style.unactive}
-            key={i}
-          >
-            {categoryName}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+const Categories: React.FC<CategoriesProps> = React.memo(
+  ({ value, onClickCategory }) => {
+    return (
+      <div className={style.Categories}>
+        <ul>
+          {categories.map((categoryName, i) => (
+            <li
+              onClick={() => onClickCategory(i)}
+              className={value === i ? style.active : style.unactive}
+              key={i}
+            >
+              {categoryName}
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+);
 
 export default Categories;
