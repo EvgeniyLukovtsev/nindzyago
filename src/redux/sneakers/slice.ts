@@ -1,17 +1,7 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
-import { FetchType, SneakersItem, SneakersSliceState, Status } from "./types";
+import { createSlice } from "@reduxjs/toolkit";
+import { fetchSneakers } from "../asyncThunk";
 
-export const fetchSneakers = createAsyncThunk(
-  "sneaker/fetchSneakersStatus",
-  async (params: FetchType) => {
-    const { sortBy, order, category, currentPage, search } = params;
-    const { data } = await axios.get<SneakersItem[]>(
-      `https://65cb6200efec34d9ed8763e5.mockapi.io/items?page=${currentPage}&limit=8&${category}&sortBy=${sortBy}&order=${order}${search}`
-    );
-    return data as SneakersItem[];
-  }
-);
+import { SneakersSliceState, Status } from "./types";
 
 const initialState: SneakersSliceState = {
   items: [],

@@ -9,13 +9,8 @@ import Categories from "../components/Categories";
 import Sort from "../components/Sort";
 import style from "./Home.module.css";
 import Pagination from "../components/Pagination";
-import {
-  setCategoryId,
-  setCurrentPage,
-  setFilters,
-} from "../redux/slices/filter/slice";
-import { fetchSneakers } from "../redux/slices/sneakers/slice";
-import { list } from "../components/Sort";
+import { setCategoryId, setCurrentPage } from "../redux/filter/slice";
+import { fetchSneakers } from "../redux/asyncThunk";
 import { RootState, useAppDispatch } from "../redux/store";
 
 interface SneakersProps {

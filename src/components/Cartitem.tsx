@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import React from "react";
 
 import style from "./Cartitem.module.css";
-import { removeItem } from "../redux/slices/cart/slice";
+import { removeItem } from "../redux/cart/slice";
 import { RootState } from "../redux/store";
 
 interface CartItemProps {

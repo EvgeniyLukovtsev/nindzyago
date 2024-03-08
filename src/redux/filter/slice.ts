@@ -1,4 +1,5 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+
 import { FilterSliceState } from "./types";
 
 const initialState: FilterSliceState = {

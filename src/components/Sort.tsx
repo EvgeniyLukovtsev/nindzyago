@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { memo, useRef, useState } from "react";
-import { setSort } from "../redux/slices/filter/slice";
 
+import { setSort } from "../redux/filter/slice";
 import style from "./Sort.module.css";
 import { RootState } from "../redux/store";
 

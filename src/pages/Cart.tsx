@@ -5,8 +5,8 @@ import style from "./Cart.module.css";
 import cartLogo from "../assets/images/cart.png";
 import CartItem from "../components/Cartitem";
 import CartEmpty from "../components/CartEmpty";
-import { clearItems } from "../redux/slices/cart/slice";
-import { cartSelector } from "../redux/slices/cart/selectors";
+import { clearItems } from "../redux/cart/slice";
+import { cartSelector } from "../redux/cart/selectors";
 
 const Cart: React.FC = () => {
   const dispatch = useDispatch();

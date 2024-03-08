@@ -6,7 +6,7 @@ import style from "./Header.module.css";
 import logo from ".././assets/images/logonindzyago.png";
 import cartLogo from "../assets/images/cart.png";
 import Search from "./Search";
-import { cartSelector } from "../redux/slices/cart/selectors";
+import { cartSelector } from "../redux/cart/selectors";
 
 export default function Header() {
   const { items, totalPrice } = useSelector(cartSelector);

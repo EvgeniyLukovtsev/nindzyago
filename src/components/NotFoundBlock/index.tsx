@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./NotFoundBlock.module.css";
 
 const NotfoundBlock = () => {
