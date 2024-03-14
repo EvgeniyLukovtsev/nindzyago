@@ -46,7 +46,7 @@ const Cart: React.FC = () => {
         <Link to="/">
           <button className={style.button_1}>⇦ Вернуться назад</button>
         </Link>
-        <button className={style.button_2}>Оплатить</button>
+        <button className={style.button_2}>Купить</button>
       </div>
     </div>
   );

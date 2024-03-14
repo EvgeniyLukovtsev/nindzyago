@@ -1,7 +1,5 @@
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useState } from "react";
 import { useSelector } from "react-redux";
-import qs from "qs";
-import { useNavigate } from "react-router-dom";
 
 import SneakersBlock from "../components/SneakersBlock";
 import Skeleton from "../components/Skeleton";
@@ -23,7 +21,6 @@ interface SneakersProps {
 
 const Home: React.FC = () => {
   const dispatch = useAppDispatch();
-  const navigate = useNavigate();
   const { items, status } = useSelector((state: RootState) => state.sneaker);
   const { sort, categoryId, currentPage, searchValue } = useSelector(
     (state: RootState) => state.filter
@@ -51,32 +48,6 @@ const Home: React.FC = () => {
   useEffect(() => {
     getSneakers();
   }, [categoryId, sort.sortProperty, currentPage, searchValue]);
-
-  // useEffect(() => {
-  //   if (window.location.search) {
-  //     const params = qs.parse(window.location.search.substring(1));
-
-  //     // const sort = list.find((obj) => obj.sortType === params.sortType);
-
-  //     const sort = list.find((obj) => obj.sortProperty === params.sortBy);
-  //     dispatch(
-  //       setFilters({
-  //         ...params,
-  //         sort,
-  //       })
-  //     );
-  //   }
-  // }, []);
-
-  useEffect(() => {
-    const queryString = qs.stringify({
-      sortProperty: sort.sortProperty,
-      categoryId,
-      currentPage,
-    });
-
-    navigate(`?${queryString}`);
-  }, [categoryId, sort.sortProperty, currentPage]);
 
   const sneakers = items.filter((obj: any) => {
     if (obj.name.toLowerCase().includes(searchValue.toLowerCase())) {

@@ -1,9 +1,8 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import React from "react";
 
 import style from "./Cartitem.module.css";
 import { removeItem } from "../redux/cart/slice";
-import { RootState } from "../redux/store";
 
 interface CartItemProps {
   number: number;
@@ -25,7 +24,6 @@ const CartItem: React.FC<CartItemProps> = ({
   sizes,
 }) => {
   const dispatch = useDispatch();
-  const items = useSelector((state: RootState) => state.cart.items);
 
   const onClicRemove = () => {
     dispatch(removeItem(number));

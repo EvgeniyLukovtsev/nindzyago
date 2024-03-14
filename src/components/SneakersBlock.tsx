@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 
 import { addItem } from "../redux/cart/slice";
 import style from "./SneakersBlock.module.css";
+import Modal from "./Modal/Modal";
 
 interface SneakersBlockProps {
   id: number;
@@ -21,6 +22,7 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
 }) => {
   const dispatch = useDispatch();
   const [size, setSize] = useState<number>(0);
+  const [isVisible, setIsVisible] = useState<boolean>(false);
 
   const onClickAdd = () => {
     const item = {
@@ -33,30 +35,42 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
       sizes,
     };
     dispatch(addItem(item));
+    setIsVisible(true);
   };
 
   return (
-    <div className={style.sneakersBlock}>
-      <img src={imageUrl} alt="Sneakers" className={style.img} />
-      <h4 className={style.name}>{name}</h4>
-      <div className={style.sizes}>
-        <ul>
-          {sizes.map((value, index) => (
-            <li
-              onClick={() => setSize(index)}
-              className={size === index ? style.li_active : style.li}
-              key={value}
-            >
-              {value}
-            </li>
-          ))}
-        </ul>
+    <>
+      <Modal
+        isVisible={isVisible}
+        setIsVisible={setIsVisible}
+        name={name}
+        price={price}
+        imageUrl={imageUrl}
+        size={size}
+        sizes={sizes}
+      />
+      <div className={style.sneakersBlock}>
+        <img src={imageUrl} alt="Sneakers" className={style.img} />
+        <h4 className={style.name}>{name}</h4>
+        <div className={style.sizes}>
+          <ul>
+            {sizes.map((value, index) => (
+              <li
+                onClick={() => setSize(index)}
+                className={size === index ? style.li_active : style.li}
+                key={value}
+              >
+                {value}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className={style.price}>{price} ₽</div>
+        <button onClick={onClickAdd} className={style.button}>
+          В корзину
+        </button>
       </div>
-      <div className={style.price}>{price} ₽</div>
-      <button onClick={onClickAdd} className={style.button}>
-        В корзину
-      </button>
-    </div>
+    </>
   );
 };
 
