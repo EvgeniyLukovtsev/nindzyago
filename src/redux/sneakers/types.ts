@@ -12,6 +12,7 @@ export interface SneakersItem {
   price: number;
   sizes: number[];
   imageUrl: string;
+  imagesUrl: string[]
 }
 
 export enum Status {

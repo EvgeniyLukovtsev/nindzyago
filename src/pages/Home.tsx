@@ -17,6 +17,7 @@ interface SneakersProps {
   price: number;
   imageUrl: string;
   id: number;
+  imagesUrl: string[]
 }
 
 const Home: React.FC = () => {
@@ -75,7 +76,7 @@ const Home: React.FC = () => {
           {status === "loading"
             ? [...new Array(6)].map((_, i) => <Skeleton key={i} />)
             : sneakers.map(
-                ({ name, sizes, price, imageUrl, id }: SneakersProps) => (
+                ({ name, sizes, price, imageUrl, id, imagesUrl }: SneakersProps) => (
                   <SneakersBlock
                     name={name}
                     sizes={sizes}
@@ -83,6 +84,7 @@ const Home: React.FC = () => {
                     imageUrl={imageUrl}
                     key={id}
                     id={id}
+                    imagesUrl={imagesUrl}
                   />
                 )
               )}

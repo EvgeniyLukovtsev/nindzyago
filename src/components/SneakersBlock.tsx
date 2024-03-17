@@ -3,7 +3,8 @@ import { useDispatch } from "react-redux";
 
 import { addItem } from "../redux/cart/slice";
 import style from "./SneakersBlock.module.css";
-import Modal from "./Modal/Modal";
+import ModalImage from "./Modal/ModalImage";
+import ModalCart from "./Modal/ModalCart";
 
 interface SneakersBlockProps {
   id: number;
@@ -11,6 +12,7 @@ interface SneakersBlockProps {
   price: number;
   sizes: number[];
   imageUrl: string;
+  imagesUrl: string[]
 }
 
 const SneakersBlock: React.FC<SneakersBlockProps> = ({
@@ -19,10 +21,12 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
   sizes,
   price,
   imageUrl,
+  imagesUrl
 }) => {
   const dispatch = useDispatch();
   const [size, setSize] = useState<number>(0);
   const [isVisible, setIsVisible] = useState<boolean>(false);
+  const [visible, setVisible] = useState<boolean>(false);
 
   const onClickAdd = () => {
     const item = {
@@ -33,6 +37,7 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
       imageUrl,
       size,
       sizes,
+      imagesUrl
     };
     dispatch(addItem(item));
     setIsVisible(true);
@@ -40,7 +45,7 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
 
   return (
     <>
-      <Modal
+      <ModalCart
         isVisible={isVisible}
         setIsVisible={setIsVisible}
         name={name}
@@ -49,8 +54,18 @@ const SneakersBlock: React.FC<SneakersBlockProps> = ({
         size={size}
         sizes={sizes}
       />
+      <ModalImage
+        visible={visible}
+        setVisible={setVisible}
+        imagesUrl={imagesUrl}
+      />
       <div className={style.sneakersBlock}>
-        <img src={imageUrl} alt="Sneakers" className={style.img} />
+        <img
+          src={imageUrl}
+          onClick={() => setVisible(true)}
+          alt="Sneakers"
+          className={style.img}
+        />
         <h4 className={style.name}>{name}</h4>
         <div className={style.sizes}>
           <ul>

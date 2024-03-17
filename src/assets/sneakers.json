@@ -6,7 +6,19 @@
     "color": ["orange"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
-    "price": 8000
+    "price": 8000,
+    "imagesUrl": [
+      "https://bmai.com.vn/wp-content/uploads/2023/08/1%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/2%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/3%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/4%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/5%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/6%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/7%C2%A6%C2%A6-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/8%C2%A6%C2%A6-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/9%C2%A6%C2%A6-1-1-510x383.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/10%C2%A6%C2%A6-1-510x383.jpg"
+    ]
   },
   {
     "id": 1,
@@ -15,7 +27,8 @@
     "color": ["red"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
-    "price": 7000
+    "price": 7000,
+    "imagesUrl": []
   },
   {
     "id": 2,
@@ -24,7 +37,8 @@
     "color": ["black"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
-    "price": 8500
+    "price": 8500,
+    "imagesUrl": []
   },
   {
     "id": 3,
@@ -33,7 +47,8 @@
     "color": ["mint"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
-    "price": 9000
+    "price": 9000,
+    "imagesUrl": []
   },
   {
     "id": 4,
@@ -42,7 +57,8 @@
     "color": ["red"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
-    "price": 10000
+    "price": 10000,
+    "imagesUrl": []
   },
   {
     "id": 5,
@@ -51,25 +67,28 @@
     "color": ["red"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [3],
-    "price": 19000
+    "price": 19000,
+    "imagesUrl": []
   },
   {
     "id": 6,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/040dce2c-690d-4b32-a628-6bfa17a3ba62/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
-    "name": "Pegasus FlyEase",
+    "name": "Nike Pegasus FlyEase",
     "color": ["blue"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
-    "price": 12000
+    "price": 12000,
+    "imagesUrl": []
   },
   {
     "id": 7,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c62b916a-063a-460e-b5dc-0727bf0a22d0/pegasus-turbo-womens-road-running-shoes-v0hK3R.png",
-    "name": "Pegasus Turbo",
+    "name": "Nike Pegasus Turbo",
     "color": ["black"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
-    "price": 12000
+    "price": 12000,
+    "imagesUrl": []
   },
   {
     "id": 8,
@@ -78,6 +97,7 @@
     "color": ["orange"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
-    "price": 18000
+    "price": 18000,
+    "imagesUrl": []
   }
 ]
