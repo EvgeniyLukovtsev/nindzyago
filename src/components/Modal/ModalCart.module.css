@@ -20,8 +20,8 @@
   padding: 20px;
   background-color: white;
   border-radius: 15px;
-  height: 220px;
-  width: 430px;
+  height: 230px;
+  width: 450px;
 }
 
 .text {
@@ -43,21 +43,22 @@
 }
 
 .name {
-  position: relative;
+  position: absolute;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  bottom: 105px;
+  bottom: 135px;
+  left: 141px;
 }
 
 .size {
   position: relative;
-  bottom: 125px;
+  bottom: 90px;
 }
 
 .price {
   position: relative;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  bottom: 125px;
-  left: 130px;
+  bottom: 70px;
+  left: 155px;
 }
 
 .button_block {
@@ -72,6 +73,7 @@
   cursor: pointer;
   width: 100px;
   margin-right: 150px;
+  margin-top: 30px;
 }
 
 .button_back:active {

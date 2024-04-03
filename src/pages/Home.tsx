@@ -1,4 +1,4 @@
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback } from "react";
 import { useSelector } from "react-redux";
 
 import SneakersBlock from "../components/SneakersBlock";
@@ -17,7 +17,7 @@ interface SneakersProps {
   price: number;
   imageUrl: string;
   id: number;
-  imagesUrl: string[]
+  imagesUrl: string[];
 }
 
 const Home: React.FC = () => {
@@ -27,9 +27,12 @@ const Home: React.FC = () => {
     (state: RootState) => state.filter
   );
 
-  const onChangeCategory = useCallback((id: number) => {
-    dispatch(setCategoryId(id));
-  }, []);
+  const onChangeCategory = useCallback(
+    (id: number) => {
+      dispatch(setCategoryId(id));
+    },
+    [dispatch]
+  );
 
   const onChangePage = (num: number) => {
     dispatch(setCurrentPage(num));
@@ -76,7 +79,14 @@ const Home: React.FC = () => {
           {status === "loading"
             ? [...new Array(10)].map((_, i) => <Skeleton key={i} />)
             : sneakers.map(
-                ({ name, sizes, price, imageUrl, id, imagesUrl }: SneakersProps) => (
+                ({
+                  name,
+                  sizes,
+                  price,
+                  imageUrl,
+                  id,
+                  imagesUrl,
+                }: SneakersProps) => (
                   <SneakersBlock
                     name={name}
                     sizes={sizes}

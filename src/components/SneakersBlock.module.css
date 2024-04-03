@@ -1,5 +1,6 @@
 .sneakersBlock {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
