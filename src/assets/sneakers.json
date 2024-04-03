@@ -2,101 +2,241 @@
   {
     "id": 0,
     "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/14.png",
-    "name": "bmai pure light",
-    "color": ["orange"],
+    "name": "Bmai Pure Light orange",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
     "price": 8000,
     "imagesUrl": [
-      "https://bmai.com.vn/wp-content/uploads/2023/08/1%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/2%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/3%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/4%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/5%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/6%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/7%C2%A6%C2%A6-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/8%C2%A6%C2%A6-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/9%C2%A6%C2%A6-1-1-510x383.jpg",
-      "https://bmai.com.vn/wp-content/uploads/2023/08/10%C2%A6%C2%A6-1-510x383.jpg"
+      "https://bmai.com.vn/wp-content/uploads/2023/08/1%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/2%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/3%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/4%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/5%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/6%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/7%C2%A6%C2%A6-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/8%C2%A6%C2%A6-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/9%C2%A6%C2%A6-1-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/10%C2%A6%C2%A6-1-scaled.jpg"
     ]
   },
   {
     "id": 1,
     "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/09/11-2.png",
-    "name": "bmai pure",
-    "color": ["red"],
+    "name": "Bmai Pure red",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
     "price": 7000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://bmai.com.vn/wp-content/uploads/2023/09/11-2.png",
+      "https://ir.ozone.ru/s3/multimedia-g/wc1000/6724595896.jpg",
+      "https://ir.ozone.ru/s3/multimedia-i/wc1000/6724595826.jpg",
+      "https://ir.ozone.ru/s3/multimedia-6/wc1000/6724595922.jpg",
+      "https://ir.ozone.ru/s3/multimedia-u/wc1000/6724595874.jpg",
+      "https://ir.ozone.ru/s3/multimedia-h/wc1000/6724595825.jpg",
+      "https://ir.ozone.ru/s3/multimedia-s/wc1000/6724595872.jpg",
+      "https://ir.ozone.ru/s3/multimedia-2/wc1000/6724595918.jpg"
+    ]
   },
   {
     "id": 2,
     "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/15.png",
-    "name": "bmai pace 4.0",
-    "color": ["black"],
+    "name": "Bmai Pace 4.0 black",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
     "price": 8500,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://bmai.com.vn/wp-content/uploads/2023/08/1-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/2-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/3-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/4-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/5-3-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/6-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/7-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/8-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/9-4-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/10-4-scaled.jpg"
+    ]
   },
   {
     "id": 3,
     "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/09/11.png",
-    "name": "bmai carbon mix",
-    "color": ["mint"],
+    "name": "Bmai Carbon Mix mint",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
     "price": 9000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://bmai.com.vn/wp-content/uploads/2023/09/1-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/2-1-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/3-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/4-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/7-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/8-2-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/09/10-2-scaled.jpg"
+    ]
   },
   {
     "id": 4,
     "imageUrl": "https://bmai.com.vn/wp-content/uploads/2023/08/4.png",
-    "name": "bmai carbon shock",
-    "color": ["red"],
+    "name": "Bmai Carbon Shock red",
+    "gebus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
     "price": 10000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://bmai.com.vn/wp-content/uploads/2023/08/4.png",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/2-8-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/3-8-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/4-8-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/5-7-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/6-8-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/7-6-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/8-7-scaled.jpg",
+      "https://bmai.com.vn/wp-content/uploads/2023/08/9-7-scaled.jpg"
+    ]
   },
   {
     "id": 5,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/33f0deb6-b2ae-47be-a377-c1ee6b69e99a/custom-pegasus-trail-gtx-by-you.png",
-    "name": "Nike Pegasus Trail 4",
-    "color": ["red"],
+    "name": "Nike Pegasus Trail 4 pink",
+    "genus": ["female"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [3],
     "price": 19000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/33f0deb6-b2ae-47be-a377-c1ee6b69e99a/custom-pegasus-trail-gtx-by-you.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0c5cd547-81c6-4f66-a1ec-9cdf8c4a6c09/custom-pegasus-trail-gtx-by-you.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cd48d81d-0ae2-4cc0-88d6-8c9db05a7c3f/custom-pegasus-trail-gtx-by-you.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c9aaf6f5-60c7-4f56-a4ed-596e5527f305/custom-pegasus-trail-gtx-by-you.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d6182f5c-7dfb-46fc-b070-03029a8a80e4/custom-pegasus-trail-gtx-by-you.png",
+      "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/dacab282-72f5-4a5a-82ec-870ef1421137/custom-pegasus-trail-gtx-by-you.png"
+    ]
   },
   {
     "id": 6,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/040dce2c-690d-4b32-a628-6bfa17a3ba62/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
-    "name": "Nike Pegasus FlyEase",
-    "color": ["blue"],
+    "name": "Nike Pegasus FlyEase blue",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
     "price": 12000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/040dce2c-690d-4b32-a628-6bfa17a3ba62/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4891fd73-a8a2-4814-b61f-8624958a531e/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7d379adc-adcd-4209-ba4e-43328fb5648c/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c18137ca-720b-4615-bccc-258b4566a36a/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/76afa44f-a960-4cc4-b51f-c34d9065d033/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b3d90ebb-0dc4-4ffd-9650-b58de238082b/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f9b3b0e9-6292-42bb-9341-5c0fb988b1ec/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/35b02ec6-633c-4857-9726-28835ecffb95/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0f57d4bb-6596-437f-a774-c92ac56f94eb/pegasus-flyease-mens-easy-on-off-road-running-shoes-MTKPfG.png"
+    ]
   },
   {
     "id": 7,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c62b916a-063a-460e-b5dc-0727bf0a22d0/pegasus-turbo-womens-road-running-shoes-v0hK3R.png",
-    "name": "Nike Pegasus Turbo",
-    "color": ["black"],
+    "name": "Nike Pegasus Turbo black",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [4],
     "price": 12000,
-    "imagesUrl": []
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2f7b9001-f1ba-4eb1-ac78-d41c30a77de1/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/98548888-aa7d-4fef-9b0b-aff102643172/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0db7e820-41c1-4f88-80f0-1779eb8ce76a/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c76819ea-d567-41eb-b8ae-90e6828ebd11/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1ff1aacc-88dc-4d5c-97a6-7b6b7bd40932/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0f410b15-d97c-414c-baa7-609e3e11449d/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4e67c20c-29da-471e-bd58-f3eeef2c5798/pegasus-turbo-mens-road-running-shoes-pnz45r.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1fa6fbce-4d1f-46d4-a5ff-76fec2cfa901/pegasus-turbo-mens-road-running-shoes-pnz45r.png"
+    ]
   },
   {
     "id": 8,
     "imageUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd599549-cac2-48b3-956d-20154fe65e65/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
-    "name": "Nike Vaporfly 3",
-    "color": ["orange"],
+    "name": "Nike Vaporfly 3 orange",
+    "genus": ["female", "male"],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [1, 2, 5],
+    "price": 18000,
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd599549-cac2-48b3-956d-20154fe65e65/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0e5c197f-bad7-4e85-b3a5-8e1790f0932d/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1ea35c1d-da71-4483-88f7-7c036120777a/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68d1cf96-facf-4b14-b364-c897717c45b8/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d1e2e630-3eda-4429-8c13-e66e00aee4a2/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1a21c025-793a-47ed-a56e-b493202ff8c5/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/93692d7f-7877-41d2-9cd6-003dabf04475/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e440896f-3c16-4871-aac4-d692ab191987/vaporfly-3-womens-road-racing-shoes-4jJ4vQ.png"
+    ]
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab1389b7-5e3a-46b2-866d-94a5532671b1/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+    "name": "Nike Invincible 3 black",
+    "genus": ["male"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 15000,
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ab1389b7-5e3a-46b2-866d-94a5532671b1/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bd9b9f8a-fd8d-46bc-a900-89d12622bba3/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ff1b20d7-8a58-4265-bff0-5436d4a5c03d/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c673f368-a80c-429d-8898-cf9d9efec950/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/77135ac8-43bc-4aff-9132-6c84e608cfc4/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3a385273-8654-4627-8fc7-b40f1fa99d79/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/67516c65-bcad-44a1-8074-d6b9bdab3f3b/invincible-3-womens-road-running-shoes-tfL5Tr.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/857d06c1-c1af-4839-9657-a10f3c53a766/invincible-3-womens-road-running-shoes-tfL5Tr.png"
+    ]
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/da305c39-bc62-426e-8529-2566232c2145/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+    "name": "Nike Alphafly 3",
+    "genus": ["female", "male"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 24000,
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/da305c39-bc62-426e-8529-2566232c2145/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d825b025-6ce0-4303-9933-82eed8c35b15/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4425be74-8243-40a2-8f79-02e992c197d4/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/40e6fdf4-eba6-41f1-ae31-22be59e8bb51/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8d01f9a1-edd6-4980-8a08-7f2b82229d81/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5aa21a60-51d0-4d65-a00f-489cbfced4cd/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/46bc66ff-9130-4cc1-b402-8f6aa2f86020/alphafly-3-womens-road-racing-shoes-7WcPfT.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/adb5aa7b-b35d-4789-bfc3-69741aef19e6/alphafly-3-womens-road-racing-shoes-7WcPfT.png"
+    ]
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bcf29547-f309-4b27-80a8-55f482273826/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+    "name": "Nike Pegasus Trail 4 black",
+    "genus": ["male"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [3],
+    "price": 18000,
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bcf29547-f309-4b27-80a8-55f482273826/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/70627d9e-f933-4a14-98e3-d8056f56c577/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1b2b68a1-a8a3-4ca9-a852-ab6941d0c7a3/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ac05bc4-733f-4f7b-bb4f-a8454ace880f/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8f6cdfb2-9382-4283-b899-a9958a922f54/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f14e2da8-fb86-44fd-b107-5a48f39830cc/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9e0184f1-2cf5-43f4-b345-ae8b200f6c79/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/be9f6bd1-e037-49c4-936e-a40bc7828210/pegasus-trail-4-gore-tex-mens-waterproof-trail-running-shoes-qdcSR6.png"
+    ]
+  },
+  {
+    "id": 12,
+    "imageUrl": "",
+    "name": "",
+    "genus": [""],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [],
     "price": 18000,
     "imagesUrl": []
   }

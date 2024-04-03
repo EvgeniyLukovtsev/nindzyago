@@ -74,7 +74,7 @@ const Home: React.FC = () => {
       ) : (
         <div className={style.container}>
           {status === "loading"
-            ? [...new Array(6)].map((_, i) => <Skeleton key={i} />)
+            ? [...new Array(10)].map((_, i) => <Skeleton key={i} />)
             : sneakers.map(
                 ({ name, sizes, price, imageUrl, id, imagesUrl }: SneakersProps) => (
                   <SneakersBlock
