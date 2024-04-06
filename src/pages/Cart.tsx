@@ -21,7 +21,7 @@ const Cart: React.FC = () => {
   }
 
   return (
-    <div>
+    <>
       <div className={style.header}>
         <img src={cartLogo} className={style.cartLogo} />
         <h2 className={style.cart}>Корзина</h2>
@@ -48,7 +48,7 @@ const Cart: React.FC = () => {
         </Link>
         <button className={style.button_2}>Купить</button>
       </div>
-    </div>
+    </>
   );
 };
 

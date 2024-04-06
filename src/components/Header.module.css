@@ -1,6 +1,7 @@
 .header {
   display: block;
   background-color: rgb(193, 193, 193);
+  height: 120px;
 }
 
 .logo {
@@ -18,7 +19,7 @@
   color: black;
   @media (max-width: 940px) {
     left: 7px;
-    top: 4%;
+    top: 40px;
   }
 }
 

@@ -8,6 +8,10 @@
   position: relative;
   border-radius: 15px;
   height: 100px;
+  @media (max-width: 550px) {
+    left: 60px;
+    margin-left: 10px;
+  }
 }
 
 .name {
@@ -15,18 +19,31 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 30px;
   margin-left: 10px;
+  @media (max-width: 550px) {
+    font-size: medium;
+    left: 60px;
+  }
 }
 
 .size {
   position: relative;
   margin-left: 10px;
   margin-right: 270px;
+  @media (max-width: 550px) {
+    font-size: medium;
+    left: 60px;
+  }
 }
 
 .price {
   position: absolute;
   margin-top: 35px;
   margin-left: 350px;
+  @media (max-width: 550px) {
+    font-size: medium;
+    margin-right: 80px;
+    margin-top: 60px;
+  }
 }
 
 .button {
@@ -34,6 +51,11 @@
   margin-top: 38px;
   margin-left: 500px;
   cursor: pointer;
+  @media (max-width: 550px) {
+    font-size: small;
+    margin-right: 160px;
+    margin-top: 61px;
+  }
 }
 
 .button:active {

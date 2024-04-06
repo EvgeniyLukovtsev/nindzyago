@@ -31,20 +31,22 @@ const ModalImage: React.FC<ModalImageProps> = ({
         ×
       </p>
       <img src={imagesUrl[image]} className={style.img} />
-      <button
-        onClick={changeImageMinus}
-        disabled={image > 0 ? false : true}
-        className={style.left}
-      >
-        ＜
-      </button>
-      <button
-        onClick={changeImagePlus}
-        disabled={image < imagesUrl.length - 1 ? false : true}
-        className={style.right}
-      >
-        ＞
-      </button>
+      <div className={style.block}>
+        <button
+          onClick={changeImageMinus}
+          disabled={image > 0 ? false : true}
+          className={style.left}
+        >
+          ＜
+        </button>
+        <button
+          onClick={changeImagePlus}
+          disabled={image < imagesUrl.length - 1 ? false : true}
+          className={style.right}
+        >
+          ＞
+        </button>
+      </div>
     </div>
   );
 };

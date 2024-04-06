@@ -39,12 +39,19 @@
   transform: scale(0.9);
 }
 
+.block {
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
 .left {
-  position: fixed;
+  position: relative;
   cursor: pointer;
-  font-size: 50px;
-  margin-left: 7%;
-  margin-top: 30%;
+  font-size: 30px;
 }
 
 .left:active {
@@ -52,11 +59,9 @@
 }
 
 .right {
-  position: absolute;
+  position: relative;
   cursor: pointer;
-  font-size: 50px;
-  margin-left: 93%;
-  margin-top: 30%;
+  font-size: 30px;
 }
 
 .right:active {
