@@ -232,12 +232,111 @@
   },
   {
     "id": 12,
+    "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8e894a1-e5d7-4362-9ef3-e2ab66904687/zegama-mens-trail-running-shoes-1t400b.png",
+    "name": "Nike Zegama white",
+    "genus": ["male"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [3],
+    "price": 18000,
+    "imagesUrl": [
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b8e894a1-e5d7-4362-9ef3-e2ab66904687/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f5d3511b-5f30-4ba5-a53a-95d7b7541cbd/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7bc7a5d6-22ef-4129-a689-9aad5901015b/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/63f2833c-476b-4553-975a-78f2bbd01366/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2113fc56-50f0-4e6c-9377-c22280c62437/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e29bd8f2-e0b2-4b71-af43-502ddd3cd599/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e0fac41c-2f31-462c-a0ac-171af894554e/zegama-mens-trail-running-shoes-1t400b.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/04788c60-3444-401b-9ab3-6eb29983b4a2/zegama-mens-trail-running-shoes-1t400b.png"
+    ]
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/736aea1c740d42b8b80eae293ca6baf1_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_01_standard.jpg",
+    "name": "Nike Adizero Boston 12 solor red",
+    "genus": ["female"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 25000,
+    "imagesUrl": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/736aea1c740d42b8b80eae293ca6baf1_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c5706aa2531c40bcaa18146b00b9e802_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_06_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/516abafe214a4502beb781329772216b_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_02_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d81692d6ebcb4bfa888b19454a65aae0_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/37938d2451624007bb215284dbed41d9_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69906e69f9de438180fe28b6b9409458_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_05_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b494f733f1f345b6a295468183e94b57_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_41_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c042015843d94b9088459814cae88e95_9366/Adizero_Boston_12_Boston_Marathon_Running_Shoe_Red_IF1910_42_detail.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/436e87f485054d24b293e199d99cd9cd_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_01_standard.jpg",
+    "name": "Nike Adizero Prime X2 lucid lemon",
+    "genus": ["male", "female"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [1, 2, 5],
+    "price": 28000,
+    "imagesUrl": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/436e87f485054d24b293e199d99cd9cd_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/511ad6db9c4f4349a6d589448e6d408f_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe639541a9684b0c9500d7d1d352b68a_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cc2fb41ecb234edba969ddbd5c106936_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a8809bd2d414f5aa97c25caf5d71653_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_05_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0bfe46945a5b44829b0867a7574c92bc_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_06_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ec5ef0a00d964bd59e73eee58b293ceb_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_09_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f617a03cf8404793ad696d487fc2abd0_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_41_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe52e3869f51470bb1cee6e707fa3e6b_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_42_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/139ff30b648d4b6db8f82cc6f721b41a_9366/Adizero_Prime_X_2_Strung_Running_Shoes_Green_HP9708_43_detail.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/822d1f6419e74aaab479af9c01084c1d_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_01_standard.jpg",
+    "name": "Adidas Ultraboost Light core black",
+    "genus": ["male", "female"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [4],
+    "price": 17000,
+    "imagesUrl": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/822d1f6419e74aaab479af9c01084c1d_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ea171781a7e42c1bd30af9c01085eaf_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7d6182e66c224876a1e1af9c010868ee_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ec56cb7feda45db99c6af9c010872b6_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a7df585b6f0c441babd8af9c01087d3e_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_05_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8ac9d73d1eed4a8198a9af9c0108559f_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_06_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/17a224f17255468ea08aaf9c0108a714_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_09_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b5fea3626b6b4c13bd74af9c01088a69_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_41_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/381cc497c82946a18542af9c01089793_9366/Ultraboost_Light_Running_Shoes_Black_HP9204_42_detail.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/194877fed729489b824b7e3970efc745_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_01_standard.jpg",
+    "name": "Adidas Terrex Soulstride core black",
+    "genus": ["male", "female"],
+    "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
+    "categories": [3],
+    "price": 13000,
+    "imagesUrl": [
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/194877fed729489b824b7e3970efc745_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_01_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/db13e22e31c44c7a9c53da4bebb268ae_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_02_standard_hover.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9f4f8a03740e4cd79fda040024e49d72_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_03_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c86930ffdd194ea499426a6b36784584_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_04_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd6e196a05774d6982833aa9891df1a6_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_05_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac33599784eb49519c0a7d71353a4bf1_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_06_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f7b84d811d84bd19c9198b199dde271_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_09_standard.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d6ea2f9446e04637aa672d4972b10332_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_41_detail.jpg",
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a6983707a5c44c1395a0799502d813c6_9366/TERREX_SOULSTRIDE_FLOW_GTX_W_Black_IF5041_42_detail.jpg"
+    ]
+  },
+  {
+    "id": 17,
     "imageUrl": "",
     "name": "",
     "genus": [""],
     "sizes": [36, 37, 38, 39, 40, 41, 42, 43],
     "categories": [],
-    "price": 18000,
+    "price": 15000,
     "imagesUrl": []
   }
 ]
