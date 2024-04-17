@@ -38,9 +38,10 @@
 .price {
   position: absolute;
   margin-top: 35px;
-  margin-left: 350px;
+  margin-left: 380px;
   @media (max-width: 550px) {
     font-size: medium;
+    margin-left: 350px;
     margin-right: 80px;
     margin-top: 60px;
   }

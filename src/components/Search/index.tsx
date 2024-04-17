@@ -42,7 +42,7 @@ const Search: React.FC = () => {
         <img
           src={clear_logo}
           onClick={onClickClear}
-          className={style.clear_logo}
+          className={style.clear_logo} alt="clear"
         />
       )}
     </div>

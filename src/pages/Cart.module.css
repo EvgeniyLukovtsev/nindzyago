@@ -41,12 +41,15 @@
 
 .container {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 140px;
   @media (max-width: 550px) {
-    left: 30px;
-    width: 250px;
+    width: 150px;
+    margin-left: 100px;
+    margin-right: auto;
   }
 }
 

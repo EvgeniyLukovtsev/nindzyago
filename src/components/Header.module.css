@@ -7,19 +7,26 @@
 .logo {
   width: 100px;
   height: 100px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.name {
+  position: absolute;
+  left: 120px;
+  top: 40px;
+  font-family: Bradley Hand;
+  color: black;
 }
 
 .text {
   position: absolute;
-  left: 100px;
-  top: 0;
+  left: 8px;
+  top: 76px;
   font-family: Bradley Hand;
-  padding-left: 10px;
-  padding-top: 40px;
   color: black;
   @media (max-width: 940px) {
-    left: 7px;
-    top: 40px;
+    left: 8px;
   }
 }
 
@@ -30,7 +37,7 @@
 
 .button {
   position: relative;
-  bottom: 65px;
+  bottom: 100px;
   float: right;
   margin-right: 8px;
   background-color: orange;
@@ -41,6 +48,12 @@
   padding: 5px;
   width: 120px;
   height: 40px;
+  @media (max-width: 540px) {
+    width: 100px;
+    height: auto;
+    bottom: 72px;
+    margin-right: 4px;
+  }
 }
 
 .cartLogo {

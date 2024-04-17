@@ -23,7 +23,7 @@ const Cart: React.FC = () => {
   return (
     <>
       <div className={style.header}>
-        <img src={cartLogo} className={style.cartLogo} />
+        <img src={cartLogo} className={style.cartLogo} alt="sneaker" />
         <h2 className={style.cart}>Корзина</h2>
         <h3 onClick={onClickClear} className={style.clear_cart}>
           🗑️Очистить корзину

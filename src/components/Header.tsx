@@ -25,6 +25,7 @@ export default function Header() {
       <div className={style.conteiner}>
         <Link to="/">
           <img src={logo} alt="Nindzyago logo" className={style.logo} />
+          <p className={style.name}>Run Shop</p>
           <p className={style.text}>Ты в форме, пока ты в нашей форме</p>
         </Link>
       </div>
@@ -34,7 +35,7 @@ export default function Header() {
           <span>
             {totalPrice} ₽ | {items.length}
           </span>
-          <img src={cartLogo} className={style.cartLogo} />
+          <img src={cartLogo} className={style.cartLogo} alt='cartLogo'/>
         </button>
       </Link>
     </div>

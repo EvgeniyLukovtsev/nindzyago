@@ -38,7 +38,7 @@ const Home: React.FC = () => {
     dispatch(setCurrentPage(num));
   };
 
-  const getSneakers = async () => {
+  const getSneakers = useCallback(async () => {
     const sortBy = sort.sortProperty.replace("-", "");
     const order = sort.sortProperty.includes("-") ? "asc" : "desc";
     const category = categoryId > 0 ? `categories=${categoryId}` : "";
@@ -47,11 +47,11 @@ const Home: React.FC = () => {
     dispatch(fetchSneakers({ sortBy, order, category, currentPage, search }));
 
     window.scrollTo(0, 0);
-  };
+  }, [categoryId, currentPage, dispatch, searchValue, sort.sortProperty]);
 
   useEffect(() => {
     getSneakers();
-  }, [categoryId, sort.sortProperty, currentPage, searchValue]);
+  }, [getSneakers]);
 
   const sneakers = items.filter((obj: any) => {
     if (obj.name.toLowerCase().includes(searchValue.toLowerCase())) {
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
       ) : (
         <div className={style.container}>
           {status === "loading"
-            ? [...new Array(10)].map((_, i) => <Skeleton key={i} />)
+            ? [...new Array(12)].map((_, i) => <Skeleton key={i} />)
             : sneakers.map(
                 ({
                   name,

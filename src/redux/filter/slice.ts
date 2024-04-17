@@ -6,7 +6,7 @@ const initialState: FilterSliceState = {
   categoryId: 0,
   currentPage: 1,
   searchValue: "",
-  sort: { name: "алфавиту", sortProperty: "name" },
+  sort: { name: "алфавиту", sortProperty: "-name" },
 };
 
 export const filterSlice = createSlice({

@@ -30,7 +30,7 @@ const ModalImage: React.FC<ModalImageProps> = ({
       <p onClick={() => setVisible(false)} className={style.close}>
         ×
       </p>
-      <img src={imagesUrl[image]} className={style.img} />
+      <img src={imagesUrl[image]} className={style.img} alt="sneaker" />
       <div className={style.block}>
         <button
           onClick={changeImageMinus}

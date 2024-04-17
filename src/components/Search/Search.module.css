@@ -1,9 +1,11 @@
 .root {
-  position: absolute;
-  left: 40%;
-  top: 55px;
-  @media (max-width: 940px) {
-    left: 27%;
+  position: relative;
+  text-align: center;
+  bottom: 40px;
+  margin: 4px;
+  @media (max-width: 540px) {
+    text-align:end;
+    bottom: 60px;
   }
 }
 

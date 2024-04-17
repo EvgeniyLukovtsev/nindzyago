@@ -1,4 +1,4 @@
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import React from "react";
 
 import style from "./Cartitem.module.css";
@@ -32,7 +32,7 @@ const CartItem: React.FC<CartItemProps> = ({
   return (
     <div>
       <div className={style.container}>
-        <img src={imageUrl} className={style.img} />
+        <img src={imageUrl} className={style.img} alt="sneaker" />
         <div>
           <h3 className={style.name}>{name}</h3>
           <p className={style.size}>Размер {sizes[size]}</p>

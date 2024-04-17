@@ -3,7 +3,7 @@ import style from "./ModalCart.module.css";
 
 interface ModalProps {
   isVisible: boolean;
-  setIsVisible: (value:boolean)=> void;
+  setIsVisible: (value: boolean) => void;
   name: string;
   price: number;
   imageUrl: string;
@@ -28,7 +28,7 @@ const ModalCart: React.FC<ModalProps> = ({
       <div className={style.container} onClick={(e) => e.stopPropagation()}>
         <div className={style.modal_block}>
           <h2 className={style.text}>Товар добавлен в корзину</h2>
-          <img src={imageUrl} className={style.img} />
+          <img src={imageUrl} className={style.img} alt="sneaker" />
           <h3 className={style.name}>{name}</h3>
           <p className={style.price}>
             Цена <strong>{price} ₽</strong>
